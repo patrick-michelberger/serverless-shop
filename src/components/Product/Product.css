@@ -1,0 +1,96 @@
+.product-thumbnails {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-thumbnail {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.product-thumbnail.selected {
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.product-image-wrapper {
+}
+
+.product-image {
+  padding: 30px;
+}
+
+.product-taxes {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.product-name {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+.product-caption {
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-description {
+  text-align: left;
+}
+
+.product-sku {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.product-sku.selected {
+  text-decoration: underline;
+}
+
+.product-price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 28px;
+}
+
+.product-selected-size {
+  margin-bottom: 15px;
+  clear: both;
+  margin-top: 15px;
+}
+
+.product-sizes-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.product-details {
+  padding-top: 0;
+}
+
+
+@media (max-width: 767px) {
+  .product-selected-size {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    margin: 0;
+    height: 55px;
+    line-height: 55px;
+  }
+}

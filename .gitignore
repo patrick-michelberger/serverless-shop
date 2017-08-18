@@ -20,9 +20,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+src/config.js
 
 # serverless
 serverless/node_modules
 serverless/secrets.json
+
+admin.env
+.env
+_meta
+.serverless
 
 .idea/

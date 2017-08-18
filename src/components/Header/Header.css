@@ -1,0 +1,9 @@
+.header {
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: none;
+  }
+}

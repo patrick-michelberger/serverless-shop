@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+button {
+  height: 45px;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    max-width: inherit;
+  }
+}

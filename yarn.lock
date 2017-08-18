@@ -5026,7 +5026,7 @@ react-dev-utils@^3.1.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@15.6.1:
+react-dom@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
   dependencies:
@@ -5089,7 +5089,11 @@ react-scripts@1.0.11:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@15.6.1:
+react-stripe-checkout@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/react-stripe-checkout/-/react-stripe-checkout-2.6.3.tgz#3173a870b04e5a3c321a06d24cd53c6030111c45"
+
+react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:

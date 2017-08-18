@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+  .paybutton-success-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+
+  .paybutton-add-to-basket,
+  .paybutton-pay {
+    position: fixed;
+    bottom: 55px;
+    left: 0;
+    height: 55px;
+    border-radius: 0;
+  }
+
+
+}
