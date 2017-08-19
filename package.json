@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://patrick-michelberger.github.io/serveress-shop"
+  "homepage": "https://patrick-michelberger.github.io/serverless-shop"
 }
