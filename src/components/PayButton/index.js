@@ -74,12 +74,11 @@ class PayButton extends Component {
     const {amount, name, caption} = this.props;
 
     this.handler.open({
-      name: "bwc clothing",
+      name: "Serverless Shop",
       description: caption,
       zipCode: true,
       currency: 'eur',
       amount: amount,
-      image: 'http://www.bwc-consulting.com/image/logo%20black.jpg',
       closed: () => {
         console.log("popup closed");
       }
