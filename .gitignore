@@ -32,3 +32,5 @@ _meta
 .serverless
 
 .idea/
+firebase.json
+.firebaserc
