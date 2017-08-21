@@ -1,10 +1,10 @@
-# Serverless-Shop
+# serverless shop
 
-This repository accompanies my blog post [Building a Serverless E-Commerce App with AWS Lambda, Stripe and React](https://medium.com/@patrickmichelberger/building-a-serverless-e-commerce-app-with-aws-lambda-stripe-and-react-4663e241710b)
+This repository accompanies my blog post <br/> 
+[Building a Serverless E-Commerce App with AWS Lambda, Stripe and React](https://medium.com/@patrickmichelberger/building-a-serverless-e-commerce-app-with-aws-lambda-stripe-and-react-4663e241710b)
 
-## Run the app
+## run the app
 
-Run the app in the development mode.<br>
 ```
 yarn run 
 ```
